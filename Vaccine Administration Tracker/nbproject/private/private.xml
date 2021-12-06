@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/update.java</file>
-            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/select.java</file>
-            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/health.jsp</file>
-            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/insert.java</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/health/insert.java</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/web/index.jsp</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/web/WEB-INF/abc.tld</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/src/java/org/health/health/health.jsp</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/conrad/Documents/NetBeansProjects/Vaccine%20Administration%20Tracker/web/index.html</file>
         </group>
     </open-files>
 </project-private>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>new</short-name>
+  <uri>/WEB-INF/tlds/new</uri>
+  <!-- A validator verifies that the tags are used correctly at JSP
+          translation time. Validator entries look like this: 
+       <validator>
+           <validator-class>com.mycompany.TagLibValidator</validator-class>
+           <init-param>
+              <param-name>parameter</param-name>
+              <param-value>value</param-value>
+           </init-param>
+       </validator>
+    -->
+  <!-- A tag library can register Servlet Context event listeners in
+         case it needs to react to such events. Listener entries look
+         like this: 
+      <listener>
+          <listener-class>com.mycompany.TagLibListener</listener-class> 
+      </listener>
+    -->
+    <tag>
+    <name>insertvaccine</name>
+    <tag-class>org.health.vaccine.addvaccine</tag-class>
+    <attribute>
+      <name>doses</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>name</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>vstatus</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>table</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+  </tag>
+
+
+  <tag>
+    <name>distribute</name>
+    <tag-class>org.health.vaccine.distribute</tag-class>
+    <attribute>
+      <name>doses</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>centre</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>id</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    <attribute>
+      <name>table</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    
+  </tag>
+
+  <tag>
+    <name>viewvaccine</name>
+    <tag-class>org.health.vaccine.viewvaccine</tag-class>
+   
+    <attribute>
+      <name>table</name>
+      <rtexprvalue>true</rtexprvalue>
+      <required>true</required>
+    </attribute>
+    
+  </tag>
+    <tag>
+    <name>selectcentre</name>
+    <tag-class>org.health.vaccine.centre</tag-class>
+    <attribute>
+      <name>table</name>
+      <required>true</required>
+    </attribute>
+  </tag>
+  
+  <tag>
+    <name>selectname</name>
+    <tag-class>org.health.vaccine.name</tag-class>
+    <attribute>
+      <name>table</name>
+      <required>true</required>
+    </attribute>
+  </tag>
+</taglib>
